@@ -1,6 +1,6 @@
-# 📘 Perkalian Matriks 5x5 di Python (Tanpa NumPy)
+# 📘 Perkalian Matriks 5x5 di Python
 
-Program ini melakukan **perkalian dua matriks 5x5** tanpa menggunakan library seperti NumPy. Matriks dikalikan menggunakan perulangan `for` dan disimpan menggunakan `append`.
+Program ini melakukan **perkalian dua matriks 5x5** Matriks dikalikan menggunakan perulangan `for` dan disimpan menggunakan `append`.
 
 ---
 
@@ -42,6 +42,8 @@ hasil = []
 
 ---
 
+### Perhitungan Kali Dalam Matrix
+
 ```python
 hasil = []  # Matriks hasil kosong
 
@@ -57,9 +59,21 @@ for i in range(5):         # Untuk setiap baris di A
 
 ### Penjelasan:
 
-- Kita mengambil **baris ke-i dari A** dan **kolom ke-j dari B**.
+- Mengambil **baris ke-i dari A** dan **kolom ke-j dari B**.
 - Mengalikan elemen yang bersesuaian lalu menjumlahkannya.
 - Hasilnya adalah elemen `[i][j]` pada matriks `hasil`.
+
+---
+
+```python
+print("Hasil perkalian matriks A x B:")
+for row in hasil:
+    print(row)
+```
+
+### Penjelasan:
+
+- Menampilkan Output dari hasil perkalin matrix
 
 ---
 
