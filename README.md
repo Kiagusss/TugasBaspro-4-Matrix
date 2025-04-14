@@ -65,6 +65,8 @@ for i in range(5):         # Untuk setiap baris di A
 
 ---
 
+### Menampilkan Hasil
+
 ```python
 print("Hasil perkalian matriks A x B:")
 for row in hasil:
