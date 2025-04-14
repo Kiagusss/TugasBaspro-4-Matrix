@@ -30,6 +30,8 @@ Program ini melakukan **perkalian dua matriks 5x5** tanpa menggunakan library se
 
 ## 🔧 Cara Kerja Kode
 
+### Inisialisasi Matrix
+
 ```python
 hasil = []
 ```
